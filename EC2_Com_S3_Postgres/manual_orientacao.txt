@@ -1,0 +1,7 @@
+Manual de orientação: 
+
+- Criar uma instancia dentro do AWS EC2, ubuntu, após instanciada, baixar a chave de acesso . 
+- Entrar na pasta onde a chave de acesso foi colocada, e abrir o cmd. 
+- Inserir o comando encontrado no "client SSH". EX: ssh -i " chaveDeAcesso.pem" ubuntu@ec2-15-228-159-52.sa-east-1.compute.amazonaws.com
+- Iserir linha a linha os comandos disponiveis no arquivo "Relacional_script", para configurar o Postegree na máquina virtual.
+- Após ser feitos as insersões de dados, poderemos realizar as consultas com o sql DQL.
